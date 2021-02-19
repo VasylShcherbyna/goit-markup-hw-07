@@ -1,0 +1,134 @@
+.box-nav {
+  display: flex;
+  align-items: center; /*Вирівнювання контейнерів по центру*/
+  background: var(--color-background--container);
+}
+.logo-link {
+  font-family: var(--font-family);
+  font-weight: bold; /* Жирное начертание */
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-focus);
+}
+.box-nav .logo-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+
+.studio {
+  font-family: var(--font-family);
+  font-weight: bold; /* Жирное начертание */
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.link-main {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-main:hover,
+.link-main:focus,
+.link-main:target {
+  color: var(--color-focus);
+}
+.link-main:active {
+  color: tomato;
+}
+
+.nav-ul {
+  font-weight: 500; /* Жирное начертание */
+  font-size: 14px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link:hover::after,
+.nav-link:focus::after {
+  opacity: 1;
+}
+.list .current {
+  color: var(--akcent-color);
+}
+.list {
+  display: flex;
+}
+.list .item:not(:last-child) {
+  margin-right: 50px;
+}
+.list .link-main {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.link-mail {
+  display: block;
+}
+.icon-mail {
+  fill: currentColor;
+}
+.icon-tel {
+  fill: currentColor;
+}
+
+.list-contakty {
+  display: flex;
+  margin-left: auto;
+}
+.list-contakty .link-main {
+  display: flex;
+  padding: 32px 0;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.list-contakty .list-mail {
+  display: flex;
+  align-items: center;
+}
+.icon-mail {
+  margin-right: 10px;
+}
+.list-contakty .list-tel {
+  align-items: center;
+}
+.icon-tel {
+  margin-right: 10px;
+}
+.list-contakty .list-mail {
+  margin-right: 50px;
+}
+.header-li a {
+  list-style-type: none;
+  background: var(--color-background--container);
+  color: var(--title-text-color);
+}
+.contakty a {
+  color: var(--primary-text-color);
+}
+.header-li {
+  list-style-type: none;
+  font-style: normal;
+}
+.header-nav {
+  display: flex;
+}
