@@ -1,9 +1,20 @@
 //UTILS
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+
 //BASE
 @import "./base/common";
 @import "./base/container";
+
+//COMPONENTS
+@import "./components/logo-studio";
+@import "./components/main-li";
+@import "./components/text-title";
+@import "./components/text-p";
+@import "./components/social-list-icon";
+@import "./components/subtitle";
+@import "./components/container-button";
+
 //LAYOUT
 @import "./layaut/aside";
 @import "./layaut/header";
@@ -13,12 +24,5 @@
 @import "./layaut/our-team";
 @import "./layaut/customers-section";
 @import "./layaut/container-footer";
-@import "./layaut/modal-icon"; //Modal-icon
-//COMPONENTS
-@import "./components/logo-studio";
-@import "./components/main-li";
-@import "./components/text-title";
-@import "./components/text-p";
-@import "./components/social-list-icon";
-@import "./components/subtitle";
-@import "./components/container-button";
+@import "./layaut/container-form";
+@import "./layaut/modal-icon";

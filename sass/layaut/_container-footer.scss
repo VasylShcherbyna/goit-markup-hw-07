@@ -71,3 +71,7 @@
   list-style-type: none;
   font-style: normal;
 }
+.footer-list .footer-hover:hover,
+.footer-list .footer-hover:focus {
+  color: var(--akcent-color);
+}
