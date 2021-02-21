@@ -71,7 +71,6 @@ body {
 }
 
 .box-nav .logo-link {
-  display: block;
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 93px;
@@ -125,6 +124,12 @@ body {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--akcent-background);
 }
 
 .social-list-item {
@@ -143,18 +148,8 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:hover, .social-list-link:focus {
   background-color: var(--color-focus);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--akcent-background);
-}
-
-.social-list-link .social-list-icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subtitle {
@@ -228,7 +223,6 @@ body {
 
 .container-item .main-li {
   background: #ffffff;
-  /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -250,14 +244,17 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-main:hover,
-.link-main:focus,
-.link-main:target {
+.link-main:hover, .link-main:focus, .link-main:target {
   color: var(--color-focus);
 }
 
 .link-main:active {
   color: tomato;
+}
+
+.list .link-main {
+  display: block;
+  padding: 32px 0;
 }
 
 .nav-ul {
@@ -287,13 +284,8 @@ body {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover::after,
-.nav-link:focus::after {
+.nav-link:hover::after, .nav-link:focus::after {
   opacity: 1;
-}
-
-.list .current {
-  color: var(--akcent-color);
 }
 
 .list {
@@ -304,10 +296,8 @@ body {
   margin-right: 50px;
 }
 
-.list .link-main {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.list .current {
+  color: var(--akcent-color);
 }
 
 .link-mail {
@@ -316,10 +306,12 @@ body {
 
 .icon-mail {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .icon-tel {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .list-contakty {
@@ -327,33 +319,14 @@ body {
   margin-left: auto;
 }
 
-.list-contakty .link-main {
-  display: flex;
-  padding: 32px 0;
-  height: 16px;
-  justify-content: center;
-  align-items: center;
-}
-
-.list-contakty .list-mail {
+.list-mail {
   display: flex;
   align-items: center;
-}
-
-.icon-mail {
-  margin-right: 10px;
-}
-
-.list-contakty .list-tel {
-  align-items: center;
-}
-
-.icon-tel {
-  margin-right: 10px;
-}
-
-.list-contakty .list-mail {
   margin-right: 50px;
+}
+
+.list-tel {
+  align-items: center;
 }
 
 .header-li a {
@@ -373,6 +346,14 @@ body {
 
 .header-nav {
   display: flex;
+}
+
+.list-contakty .link-main {
+  display: flex;
+  padding: 32px 0;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .list-features-svg {
@@ -568,8 +549,7 @@ body {
   border-color: var(--color-focus);
 }
 
-.link-customers:hover,
-.link-customers:focus {
+.link-customers:hover, .link-customers:focus {
   border-color: var(--color-focus);
 }
 
@@ -617,13 +597,13 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-address .text-p {
-  margin-bottom: 9px;
-  color: var(--color-background--container);
-}
-
 .footer-list .link-m {
   margin-bottom: 9px;
+}
+
+.footer-list .footer-hover:hover,
+.footer-list .footer-hover:focus {
+  color: var(--akcent-color);
 }
 
 .studio-footer .text-p {
@@ -644,28 +624,27 @@ body {
   color: var(--color-background--container);
 }
 
-.footer-address .link-main {
-  display: block;
-  font-size: 14px;
-  line-height: 1.71;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .footer-address {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
+.footer-address .link-main {
+  display: block;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.text-p {
+  margin-bottom: 9px;
+  color: var(--color-background--container);
+}
+
 .footer-li {
   list-style-type: none;
   font-style: normal;
-}
-
-.footer-list .footer-hover:hover,
-.footer-list .footer-hover:focus {
-  color: var(--akcent-color);
 }
 
 .container-form {
@@ -767,17 +746,17 @@ body {
   cursor: pointer;
 }
 
-.modal-close-btn:focus .icon-close,
-.modal-close-btn:hover .icon-close {
-  fill: var(--akcent-color);
-}
-
 .icon-close {
   position: absolute;
   width: 18px;
   height: 18px;
   fill: #000000;
   transform: translate(-50%, -50%);
+}
+
+.modal-close-btn:focus .icon-close,
+.modal-close-btn:hover .icon-close {
+  fill: var(--akcent-color);
 }
 
 .is-hidden {
@@ -803,8 +782,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.contact-form-input:focus,
-.contact-form-input:hover {
+.contact-form-input:focus, .contact-form-input:hover {
   outline: transparent;
   border: 1px solid #2196f3;
 }
@@ -895,18 +873,6 @@ body {
   appearance: none;
 }
 
-.checkbox-icon {
-  margin-right: 7px;
-  width: 16px;
-  height: 15px;
-  display: inline-block;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-  border-color: #212121;
-  border: 2px solid #212121;
-  cursor: pointer;
-}
-
 .checkbox:checked + .checkbox-icon {
   background-color: #2196f3;
   background-image: url(../img/check.svg);
@@ -920,6 +886,18 @@ body {
 .checkbox:focus + .checkbox-icon {
   border: 2px solid var(--akcent-color);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-icon {
+  margin-right: 7px;
+  width: 16px;
+  height: 15px;
+  display: inline-block;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  border-color: #212121;
+  border: 2px solid #212121;
+  cursor: pointer;
 }
 
 .modal-submit {
@@ -939,8 +917,7 @@ body {
   cursor: pointer;
 }
 
-.modal-submit:hover,
-.modal-submit:focus {
+.modal-submit:hover, .modal-submit:focus {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

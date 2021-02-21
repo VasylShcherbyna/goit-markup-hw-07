@@ -4,6 +4,13 @@
 //UTILS
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+
+//LAYOUT
+@import "./layaut/header";
+@import "./layaut/section-portfolio";
+@import "./layaut/container-footer";
+@import "./layaut/container-form";
+
 //COMPONENTS
 @import "./components/button-portfolio";
 @import "./components/text-title";
@@ -12,8 +19,3 @@
 @import "./components/main-li";
 @import "./components/logo-studio";
 @import "./components/social-list-icon";
-//LAYOUT
-@import "./layaut/header";
-@import "./layaut/section-portfolio";
-@import "./layaut/container-footer";
-@import "./layaut/container-form";
