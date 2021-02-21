@@ -33,13 +33,11 @@
   background: rgba(47, 48, 58, 0.8);
 }
 .label {
+  @include font($fs: 14px, $lh: 1.14);
   position: absolute;
   bottom: 50%;
   left: 0;
   right: 0;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;

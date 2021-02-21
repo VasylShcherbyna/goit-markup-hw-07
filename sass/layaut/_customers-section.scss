@@ -2,11 +2,9 @@
   padding: 94px 0;
 }
 .customers-title {
+  @include font($fs: 36px, $lh: 1.16);
   margin-bottom: 50px;
   text-align: center;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
@@ -21,34 +19,22 @@
   height: 90px;
 }
 .logo-1 {
-  width: 44px;
-  height: 49px;
-  fill: #afb1b8;
+  @include logo();
 }
 .logo-2 {
-  width: 40px;
-  height: 52px;
-  fill: #afb1b8;
+  @include logo();
 }
 .logo-3 {
-  width: 41px;
-  height: 42px;
-  fill: #afb1b8;
+  @include logo();
 }
 .logo-4 {
-  width: 79px;
-  height: 42px;
-  fill: #afb1b8;
+  @include logo();
 }
 .logo-5 {
-  width: 59px;
-  height: 47px;
-  fill: #afb1b8;
+  @include logo();
 }
 .logo-6 {
-  width: 88px;
-  height: 45px;
-  fill: #afb1b8;
+  @include logo();
 }
 
 .link-customers {

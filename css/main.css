@@ -73,11 +73,10 @@ body {
 }
 
 .logo-link {
-  font-family: var(--font-family);
   font-weight: bold;
-  /* Жирное начертание */
   font-size: 26px;
   line-height: 1.19;
+  font-family: var(--font-family);
   letter-spacing: 0.03em;
   color: var(--color-focus);
 }
@@ -89,11 +88,10 @@ body {
 }
 
 .studio {
-  font-family: var(--font-family);
   font-weight: bold;
-  /* Жирное начертание */
   font-size: 26px;
   line-height: 1.19;
+  font-family: var(--font-family);
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
@@ -104,12 +102,12 @@ body {
 }
 
 .main-li .caption {
-  margin-bottom: 10px;
   font-weight: 700;
+  font-size: inherit;
   line-height: 1.143;
+  margin-bottom: 10px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-size: inherit;
 }
 
 .text-title {
@@ -193,10 +191,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   display: inline-block;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 32px;
   margin: 0 auto;
   border: none;
   align-items: flex-start;
@@ -217,11 +212,11 @@ body {
 }
 
 .aside h2 {
-  margin-bottom: 50px;
-  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
+  margin-bottom: 50px;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -434,13 +429,13 @@ body {
 }
 
 .label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
   position: absolute;
   bottom: 50%;
   left: 0;
   right: 0;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -473,11 +468,11 @@ body {
 }
 
 .customers-title {
-  margin-bottom: 50px;
-  text-align: center;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
+  margin-bottom: 50px;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -501,32 +496,32 @@ body {
 }
 
 .logo-2 {
-  width: 40px;
-  height: 52px;
+  width: 44px;
+  height: 49px;
   fill: #afb1b8;
 }
 
 .logo-3 {
-  width: 41px;
-  height: 42px;
+  width: 44px;
+  height: 49px;
   fill: #afb1b8;
 }
 
 .logo-4 {
-  width: 79px;
-  height: 42px;
+  width: 44px;
+  height: 49px;
   fill: #afb1b8;
 }
 
 .logo-5 {
-  width: 59px;
-  height: 47px;
+  width: 44px;
+  height: 49px;
   fill: #afb1b8;
 }
 
 .logo-6 {
-  width: 88px;
-  height: 45px;
+  width: 44px;
+  height: 49px;
   fill: #afb1b8;
 }
 
@@ -577,10 +572,10 @@ body {
 }
 
 .footer-title {
-  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
+  margin-bottom: 20px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -610,10 +605,10 @@ body {
 }
 
 .logo-link-footer {
-  font-family: var(--font-family);
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  font-family: var(--font-family);
   letter-spacing: 0.03em;
   text-decoration: none;
   /* Отменяем подчеркивание у ссылки */
@@ -667,27 +662,27 @@ body {
 }
 
 .title-form {
-  display: block;
-  margin-bottom: 20px;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 .contact-form-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
   margin-left: 12px;
   padding: 10px 29px;
   width: 200px;
   height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.88px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -792,12 +787,12 @@ body {
 }
 
 .title-contact-form {
-  display: block;
-  margin-bottom: 30px;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.15;
+  display: block;
+  margin-bottom: 30px;
+  font-style: normal;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -839,24 +834,24 @@ body {
 }
 
 .label-style {
-  text-align: left;
-  margin-bottom: 4px;
-  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 1.17;
+  text-align: left;
+  margin-bottom: 4px;
+  font-style: normal;
   letter-spacing: 0.01em;
 }
 
 .checkbox-label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.171;
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
   align-items: center;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }

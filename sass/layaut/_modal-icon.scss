@@ -81,12 +81,10 @@
 }
 
 .title-contact-form {
+  @include font($fs: 20px, $lh: 1.15);
   display: block;
   margin-bottom: 30px;
   font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -126,23 +124,19 @@
 }
 
 .label-style {
+  @include font($fw: normal, $fs: 12px, $lh: 1.17);
   text-align: left;
   margin-bottom: 4px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.17;
   letter-spacing: 0.01em;
 }
 .checkbox-label {
+  @include font($fw: normal, $fs: 14px, $lh: 1.171);
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
   align-items: center;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: #757575;

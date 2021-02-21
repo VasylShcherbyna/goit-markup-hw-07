@@ -1,6 +1,4 @@
 .text-title {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--title-text-color);
-  }
+  @include font($fs: 14px, $lh: 1.14);
+  color: var(--title-text-color);
+}

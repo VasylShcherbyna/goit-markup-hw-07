@@ -18,10 +18,8 @@
   justify-content: space-between;
 }
 .footer-title {
+  @include font($fw: 700, $fs: 14px, $lh: 1.143);
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -48,10 +46,8 @@
   color: var(--color-background--container);
 }
 .logo-link-footer {
+  @include font($fs: 26px, $lh: 1.19);
   font-family: var(--font-family);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
@@ -70,10 +66,10 @@
     color: rgba(255, 255, 255, 0.6);
   }
 }
-  .text-p {
-    margin-bottom: 9px;
-    color: var(--color-background--container);
-  }
+.text-p {
+  margin-bottom: 9px;
+  color: var(--color-background--container);
+}
 
 .footer-li {
   list-style-type: none;
