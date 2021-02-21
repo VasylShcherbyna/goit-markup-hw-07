@@ -7,16 +7,18 @@
 //LAYOUT
 @import "./layaut/aside";
 @import "./layaut/header";
-@import "./layaut/container-button";
 @import "./layaut/list-features";
 @import "./layaut/list-desc";
 @import "./layaut/doing-section";
-
 @import "./layaut/our-team";
 @import "./layaut/customers-section";
-
+@import "./layaut/container-footer";
+@import "./layaut/modal-icon"; //Modal-icon
 //COMPONENTS
+@import "./components/logo-studio";
 @import "./components/main-li";
 @import "./components/text-title";
 @import "./components/text-p";
 @import "./components/social-list-icon";
+@import "./components/subtitle";
+@import "./components/container-button";

@@ -1,0 +1,73 @@
+.container-footer {
+  background: #2f303a;
+  padding: 60px 0;
+}
+.footer-social:not(:last-child) {
+  margin-right: 10px;
+}
+.social-link-footer {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--akcent-background);
+}
+.footer-icon {
+  fill: var(--akcent-background);
+}
+.flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.footer-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-box {
+  margin-left: 70px;
+}
+.logo-footer {
+  display: block;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.footer-address .text-p {
+  margin-bottom: 9px;
+  color: var(--color-background--container);
+}
+.footer-list .link-m {
+  margin-bottom: 9px;
+}
+.studio-footer .text-p {
+  color: var(--color-background--container);
+}
+.logo-link-footer {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+.container-footer span {
+  color: var(--color-background--container);
+}
+.footer-address .link-main {
+  display: block;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-li {
+  list-style-type: none;
+  font-style: normal;
+}

@@ -1,0 +1,23 @@
+.logo-link {
+  font-family: var(--font-family);
+  font-weight: bold; /* Жирное начертание */
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--color-focus);
+}
+.box-nav .logo-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+
+.studio {
+  font-family: var(--font-family);
+  font-weight: bold; /* Жирное начертание */
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
