@@ -101,9 +101,10 @@
   display: flex;
 }
 .list-contakty .link-main {
-  display: flex;
+  @extend %align;
+  //display: flex;
   padding: 32px 0;
   height: 16px;
-  justify-content: center;
-  align-items: center;
+ // justify-content: center;
+ // align-items: center;
 }

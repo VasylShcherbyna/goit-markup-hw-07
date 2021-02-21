@@ -17,9 +17,10 @@
   height: 44px;
 }
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %align;
+  //display: flex;
+  // justify-content: center;
+  //align-items: center;
   width: 100%;
   height: 100%;
   /* background-color: var(--akcent-background);*/

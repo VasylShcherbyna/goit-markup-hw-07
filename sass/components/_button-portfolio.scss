@@ -14,6 +14,7 @@ button.button-marketing {
   min-width: 130px;
 }
 button.filtry {
+  @include font(500, 16px, 1.63);
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
@@ -21,9 +22,6 @@ button.filtry {
   border: none;
   border-radius: 4px;
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   background: #f5f4fa;

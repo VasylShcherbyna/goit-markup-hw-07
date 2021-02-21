@@ -60,6 +60,12 @@ body {
   display: none;
 }
 
+.list-contakty .link-main, .social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .box-nav {
   display: flex;
   align-items: center;
@@ -178,11 +184,8 @@ body {
 }
 
 .list-contakty .link-main {
-  display: flex;
   padding: 32px 0;
   height: 16px;
-  justify-content: center;
-  align-items: center;
 }
 
 .dark {
@@ -448,6 +451,9 @@ button.button-marketing {
 }
 
 button.filtry {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
@@ -455,9 +461,6 @@ button.filtry {
   border: none;
   border-radius: 4px;
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   background: #f5f4fa;
@@ -560,9 +563,6 @@ button.current {
 }
 
 .social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100%;
   /* background-color: var(--akcent-background);*/
