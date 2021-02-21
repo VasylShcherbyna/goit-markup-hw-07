@@ -3,8 +3,8 @@
   font-size: $fs;
   line-height: $lh;
 }
-@mixin logo() {
-  width: 44px;
-  height: 49px;
-  fill: #afb1b8;
+@mixin logo($w, $h, $f) {
+  width: $w;
+  height: $h;
+  fill: $f;
 }

@@ -19,22 +19,22 @@
   height: 90px;
 }
 .logo-1 {
-  @include logo();
+  @include logo(44px, 49px, #afb1b8);
 }
 .logo-2 {
-  @include logo();
+  @include logo(40px, 52px, #afb1b8);
 }
 .logo-3 {
-  @include logo();
+  @include logo(41px, 42px, #afb1b8);
 }
 .logo-4 {
-  @include logo();
+  @include logo(80px, 42px, #afb1b8);
 }
 .logo-5 {
-  @include logo();
+  @include logo(59px, 47px, #afb1b8);
 }
 .logo-6 {
-  @include logo();
+  @include logo(88px, 45px, #afb1b8);
 }
 
 .link-customers {
